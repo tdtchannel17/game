@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="256dp"
+        android:layout_height="256dp">
+
+        <TextView
+            android:text="Bạn muốn gọi cho ai trong 6 người dưới đây?"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/btn_convinh"
+                android:background="@drawable/congvinh"
+                android:layout_marginRight="4dp"
+                android:layout_width="64dp"
+                android:layout_height="64dp"/>
+
+            <ImageButton
+                android:id="@+id/btn_leymar"
+                android:background="@drawable/leymar"
+                android:layout_width="64dp"
+                android:layout_height="64dp"/>
+
+            <ImageButton
+                android:id="@+id/btn_messi"
+                android:background="@drawable/messi"
+                android:layout_marginLeft="4dp"
+                android:layout_width="64dp"
+                android:layout_height="64dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/btn_bill"
+                android:background="@drawable/bill"
+                android:layout_marginRight="4dp"
+                android:layout_width="64dp"
+                android:layout_height="64dp"/>
+
+            <ImageButton
+                android:id="@+id/btn_bigronaldo"
+                android:background="@drawable/bigronaldo"
+                android:layout_width="64dp"
+                android:layout_height="64dp"/>
+
+            <ImageButton
+                android:id="@+id/btn_ronaldo"
+                android:background="@drawable/ronaldo"
+                android:layout_marginLeft="4dp"
+                android:layout_width="64dp"
+                android:layout_height="64dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_answer"
+            android:textColor="#000000"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:text="OK"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_play"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Giải Đố</string>
+    <string name="introduce">
+        Chào mừng bạn đến với trò chơi .
+        Bạn sẽ phải trả lời 15 câu hỏi để chiến thắng trò chơi .
+        Mỗi câu hỏi có 60 giây để trả lời .
+        Trò chơi sẽ có các trợ giúp cho bạn, bạn có thể sử dụng khi gặp các câu hỏi khó .
+        Chúc bạn chiến thắng !!!
+    </string>
+    <string name="play">Bắt đầu</string>
+    <string name="quit">Thoát</string>
+    <string name="ready">Sẵn sàng</string>
+</resources>
